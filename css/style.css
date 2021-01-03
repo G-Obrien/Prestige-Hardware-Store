@@ -1,0 +1,141 @@
+/* import fonts from google-font */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Jura&family=Roboto+Mono:wght@100&display=swap');
+
+:root{
+    --primary_bg:#062255;
+    --text_color: rgb(228, 154, 43);
+    --body-text: black;
+    --foot-bg:#03063b;
+    --background:#f9f9fd;
+    --hoover-link:rgb(33, 175, 144);
+    --price-txt-colo:rgb(201, 61, 61);
+    --shadow-border:  0 0.2px 5px rgba(0, 0, 0, 5);
+    --ads-color: rgb(9, 9, 245);
+}
+/*  Header designs */
+header{
+    color: var(--text_color);
+    font-family: jura;
+    box-shadow: var(--shadow-border);
+    position: sticky;
+    top: 1px;
+   
+}
+header .container{
+    width: 100%;
+    font-family: jura;
+    
+}
+header .greetings{
+    font-size: 14px;
+    padding-top: 5%;
+   
+}
+header a{
+    color: var(--text_color);
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+header .row .header-links{
+    float: right;
+}
+header h2{
+    font-weight: 800;   
+}
+.metal-blue{
+    height: fit-content;
+    background-color:var(--primary_bg) !important;
+    border-bottom: 2px grey solid;
+}
+.container-fluid{
+    padding-top: 1%;
+    background: var(--background);
+    
+}
+.container-fluid a{
+    padding-top: 1%;
+    color: var(--body-text);
+}
+header #lft{
+    display: flex;
+}
+header .col-md-2 a{
+    padding: 1%;
+}
+header .col-md-2 a img{
+    width: 50%;
+}
+header img{
+    height: 80%;
+    padding: 2%;
+}
+header .search-bar{
+   width: 80%; 
+   border: #000000 solid 1px;
+   padding: 0.25%;
+   border-radius: 4px;
+   justify-content: space-evenly;
+   float: right;
+}
+.search-bar input{
+    width: 80%;
+    float: left;
+    border: 0%;
+}
+header .search-bar .sas{
+    background-color: #df4415;
+    color:whitesmoke;
+    float: right;
+    width: 20%;
+    text-align: center;
+}
+
+/*  /////Header designs */
+/* -----Main content designs---*/
+/*=======Category Content=======*/
+main{
+padding: 1%;
+}
+main .category-container{
+    box-shadow: var(--shadow-border);
+    font-family: jura;
+    border-radius: 6px;
+    /*position: sticky;
+    top: 150px;*/
+    
+}
+main ul li{
+    list-style: none;
+}
+main ul li a{
+    text-decoration: none;
+    color: var(--body-text);
+    font-size: 20px;
+}
+
+/*=======Content Slider=======*/
+main .content-slider{
+    box-shadow: var(--shadow-border);
+    font-family: jura;
+    text-align: left;
+    padding: 2%;
+    border-radius: 6px;
+}
+
+
+/*=======Ads Content=======*/
+main .ads-content{
+    box-shadow: var(--shadow-border);
+    border-radius: 6px;
+    float: right;
+    padding: 4%;
+}
+main .ads-content h2{
+    font-size: 18px;
+    color: var(--ads-color);
+    
+}
+
+/* ////// Main content designs*/
+/* Footer designs   */
