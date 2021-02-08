@@ -5,4 +5,12 @@ This is an e-commerce website which deals in sales of hardware materials for bui
 The system requirements:
 1. Xampp installed and running
 2. Database 'prestige' using available tables created on PhP MyAdmin.More of them are automatically created in the 'configuration.php' file in the project.
-3. 
+3. Load your browser with this address "loclhost/prestige" to run the website locally..
+
+Project Teams include;
+1. Obita Godfrey (github - G-Obrien G-Obyta)
+2. Allen Mbabazi (github - Allenmabazi)
+3. Oceng John Bosco (github - ocengjohnbosco)
+4. Edeet Emmanuel James (github - Edeet-Emmanuel-James)
+
+
